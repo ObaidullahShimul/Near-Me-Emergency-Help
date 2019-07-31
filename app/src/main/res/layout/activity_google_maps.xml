@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:background="#fff"
+            android:layout_weight="8.5"
+            android:inputType="text"
+            android:id="@+id/locationEditId"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="Write any Place Name"/>
+
+        <ImageButton
+            android:background="#ffffff"
+            android:scaleType="fitXY"
+            android:layout_weight="1.5"
+            android:id="@+id/search_address"
+            android:contentDescription="search"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onClickk"
+            android:src="@drawable/se"/>
+
+
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:layout_marginTop="45dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GoogleMapsActivity"
+        tools:layout="@layout/activity_google_maps" />
+
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <at.markushi.ui.CircleButton
+                android:contentDescription="hospital"
+                android:id="@+id/hospital_nearby"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="onClickk"
+                android:src="@drawable/hospitalmain"/>
+
+            <at.markushi.ui.CircleButton
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:contentDescription="police"
+                android:id="@+id/policestation_nearby"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="onClickk"
+                android:src="@drawable/ic_police"/>
+
+            <at.markushi.ui.CircleButton
+                android:id="@+id/pharmacy_nearby"
+                android:contentDescription="pharmacy"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/pharmacy"
+                android:onClick="onClickk"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <at.markushi.ui.CircleButton
+                android:id="@+id/hotel_nearby"
+                android:contentDescription="hotel"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="onClickk"
+                android:src="@drawable/hotel1"/>
+
+            <at.markushi.ui.CircleButton
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/resturant_nearby"
+                android:scaleType="fitXY"
+                android:contentDescription="school"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="onClickk"
+                android:src="@drawable/food"/>
+
+
+            <at.markushi.ui.CircleButton
+                android:id="@+id/mosque_nearby"
+                android:contentDescription="Mosque"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/mosque2"
+                android:onClick="onClickk"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

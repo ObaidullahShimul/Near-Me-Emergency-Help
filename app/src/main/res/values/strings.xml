@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">HELP</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="fireStationName">
+        <item>Siddik Bazar Fire Station</item>
+        <item>Postogola Fire Station</item>
+        <item>Lalbagh Fire Station</item>
+        <item>Palashi Berak Fire Station</item>
+        <item>Khilgao Fire Station</item>
+        <item>Tejgaon Fire Station</item>
+        <item>Mohammadpur Fire Station</item>
+        <item>Mirpur Fire Station</item>
+        <item>Kurmitola Fire Station</item>
+        <item>Uttora Fire Station</item>
+        <item>DEPZ Fire Station</item>
+
+        <item>Demra Fire Station</item>
+        <item>Baridhara Fire Station</item>
+        <item>DEPZ Fire Station</item>
+        <item>Savar Fire Station</item>
+        <item>Dohar Fire Station</item>
+        <item>Hazaribag Fire Station</item>
+        <item>Dhamrai Fire Station</item>
+        <item>Kerani Ganj Fire Station</item>
+        <item>Shutrapur Fire Station</item>
+    </string-array>
+
+
+    <string-array name="station_phone_number">
+        <item>01945147784</item>
+        <item>01945147784</item>
+        <item>01945147784</item>
+        <item>01945147784</item>
+        <item>01945147784</item>
+        <item>01945147784</item>
+        <item>01945147784</item>
+        <item>01945147784</item>
+        <item>01945147784</item>
+        <item>01945147784</item>
+        <item>01945147784</item>
+    </string-array>
+
+    <string-array name="ambulanceNameList">
+        <item>TUBA AMBULANCE SERVICE</item>
+        <item>Ambulance Service Bangladesh</item>
+        <item>NHFH Ambulance Service</item>
+        <item>Jamuna Ambulance Service</item>
+        <item>ABC Ambulance</item>
+        <item>Uttara Ambulance Service And Freezer</item>
+        <item>ঢাকায় অ্যাম্বুলেন্স পরিষেবা</item>
+        <item>খালেদ অ্যাম্বুলেন্স সার্ভিস</item>
+        <item>আলিফ এ্যাম্বুলেন্স সার্ভিস</item>
+        <item>দেশ অ্যাম্বুলেন্স পরিষেবা</item>
+        <item>আল আমিন অ্যাম্বুলেন্স</item>
+        <item>হক অ্যাম্বুলেন্স সার্ভিস</item>
+        <item>অ্যাম্বুলেন্স বিডি ভাড়া</item>
+        <item>সালমান অ্যাম্বুলেন্স পরিষেবা</item>
+        <item>এইচআর অ্যাম্বুলেন্স</item>
+        <item>এ এস অ্যাম্বুলেন্স</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "260664836362",
+    "firebase_url": "https://nearesthospital-c1771.firebaseio.com",
+    "project_id": "nearesthospital-c1771",
+    "storage_bucket": "nearesthospital-c1771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260664836362:android:80fc2ef8e3356c14",
+        "android_client_info": {
+          "package_name": "www.siit.com.nearesthospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260664836362-4otvcuskqq264jss93oa4tfuhb10s3sm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.siit.com.nearesthospital",
+            "certificate_hash": "1537b058c12eac5fd6cb6f59ba4b415bfc00a226"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGZog6yHZm-Nucn9vxp4eRvU8hkZlkr4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260664836362-iv4ijku342mo743sdhfl4nma3emc9mdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

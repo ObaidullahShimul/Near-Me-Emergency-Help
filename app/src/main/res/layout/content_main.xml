@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <at.markushi.ui.CircleButton
+                        android:scaleType="fitXY"
+                        android:background="@drawable/ic_firestation"
+                        android:layout_marginEnd="40dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/cProgramsBtnId"
+                        android:background="@drawable/ambulance"
+                        android:scaleType="fitXY"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:text="Fire Service"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_marginRight="35dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:text="Ambulance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:padding="3dp"
+                    android:background="#c8f159e1"
+                    android:layout_marginTop="40dp"
+                    android:textColor="#160769"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:text="Nearest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <at.markushi.ui.CircleButton
+                        android:scaleType="fitXY"
+                        android:background="@drawable/hospital"
+                        android:layout_marginEnd="40dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/cCompilerBtnId"
+                        android:background="@drawable/ic_police"
+                        android:scaleType="fitXY"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="35dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:text="Hospitals"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_marginRight="30dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:text="Police Station"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <at.markushi.ui.CircleButton
+                        android:scaleType="fitXY"
+                        android:background="@drawable/pharmacy"
+                        android:layout_marginEnd="40dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/cquizBtnId"
+                        android:background="@drawable/hotel_icon"
+                        android:scaleType="fitXY"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:text="Pharmacy"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_marginRight="45dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:text="Hotel  "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <at.markushi.ui.CircleButton
+                        android:scaleType="fitXY"
+                        android:background="@drawable/food"
+                        android:layout_marginEnd="40dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+
+                    <at.markushi.ui.CircleButton
+                        android:background="@drawable/hotel_icon"
+                        android:scaleType="fitXY"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:text="Restaurant"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_marginRight="45dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:text="Hotel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
